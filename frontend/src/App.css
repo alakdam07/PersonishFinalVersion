@@ -1,0 +1,115 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+body {
+  background-color: #282c34;
+  color: wheat;
+
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Person's card Css*/
+
+.whole {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+
+}
+
+.Personcontainer {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.box {
+  width: 270px;
+  height: auto;
+  box-shadow: 0px 0px 7px 3px gray;
+  text-align: center;
+  margin: 25px auto;
+  transition: all 0.5s;
+  border-radius: 5px;
+  /* flex: 0 1 24%; */
+}
+
+.box:hover {
+  filter: brightness(1.2);
+}
+
+/*Nav bar*/
+nav {
+  text-align: center;
+  background-color: #282c34;
+  padding: 10px 0 10px 0;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style-type: none;
+  font-size: 20px;
+  font-family: sans-serif;
+  margin-left: 60px;
+}
+
+/*Input field*/
+
+.field {
+  width: 220px;
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  outline: none;
+  color: wheat;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+
+.field:focus {
+  width: 280px;
+  border-color: #2ecc71;
+}
