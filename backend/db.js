@@ -1,6 +1,6 @@
 const sequelize = require("./node_modules/sequelize");
 
-var con = new sequelize("image", "postgres", "password", {
+var con = new sequelize("image", "postgres", "Joymaaloknath123", {
   host: "localhost",
   dialect: "postgres",
 
