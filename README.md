@@ -1,4 +1,4 @@
-# PersonishFinalVersion
+# Persona
 
 ## User can signup the page. After signin, user can able add his/her profile. Then he/she can create post with title and content. User can also search for other user who creates profile and able to see their post.
 
