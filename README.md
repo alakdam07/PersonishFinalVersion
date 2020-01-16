@@ -4,4 +4,4 @@
 
 ## Made in: Backend: Node js. Server: Express, express-graphql, apollo server. API: Graphql API, Signup/Signin: Firebase and firestore, Frontend: React js, React's state management: Redux & firebase-redux, Database:PostgreSQL/heroku postgreSQL addons, Image storage: cloudinary. Application deployed in heroku.
 
-## Here is the link: https://personaaa.herokuapp.com/
+## Here is the link: https://personaaaa.herokuapp.com/
